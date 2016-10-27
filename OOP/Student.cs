@@ -61,12 +61,15 @@ namespace OOP
 
     public class Department
     {
+        //properties
         public string Name { get; set; }
         public string Faculty { get; set; }
 
+        //Constructor
         public Department(string name)
         {
             Name = name;
         }
     }
+
 }

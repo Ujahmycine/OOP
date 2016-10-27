@@ -14,8 +14,14 @@ namespace OOP
             Department department = new Department("Agric Science");
             Student chisom = new Student(name,department);
 
-            Console.WriteLine(chisom.StudentName.Fullname);
-            Console.WriteLine(chisom.StudentName.Initials);
+            Console.WriteLine("Press 1 to create student");
+            Console.WriteLine("Press 2 to view student");
+            string input = Console.ReadLine();
+            if (input == "1")
+            {
+                Console.WriteLine("You pressed 1.. that mean you want to create a student");
+
+            }
             Console.ReadKey();
         }
     }
