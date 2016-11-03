@@ -8,7 +8,7 @@ namespace OOP
 {
     public class Student
     {
-        //Properties
+        //Properties of this class
         public Name StudentName { get; set; }
         public Department StudentDepartment { get; set; }
         public string State { get; set; }
@@ -20,6 +20,7 @@ namespace OOP
         public string JambNumber { get; set; }
         public string StudentType { get; set; }
         public string CourseData { get; set; }
+        public	string SchoolData {get; set;}
 
         //Constructor
         public Student(Name studentName, Department studentDepartment)
